@@ -1,0 +1,9 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 10em auto;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    color: #2a042b; 
+}
+
