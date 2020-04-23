@@ -5,7 +5,7 @@
     height: 10em;
 }
 .logo {
-    /* flex-grow: 4; */
+    flex-grow: 2;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -21,7 +21,7 @@
 
 }
 .navbar {
-    flex-grow: 2;
+    flex-grow: 5;
 }
 .nav-list {
     display: flex;
@@ -62,11 +62,10 @@
 .nav-bar-1{
     /* width: 300px; */
     width: 185px;
-    height: 20%;
-   
+    height: 23%;
     background-color: #2a042b; 
     position: fixed;
-    top: 0;
+    top: 1em;
     right: -300px;
     display: flex;
     justify-content: center;
@@ -166,14 +165,6 @@
     }
   }
   
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  /* @media only screen and (min-width: 600px) {
-    
-    .navbar {
-        display: none;
-    }
-  } */
-  
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (max-width: 768px) {
         .my-name {
@@ -186,19 +177,13 @@
         }
   } 
   
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    
-   
-  } 
+ /* sticky navigation */
+  /* .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+  }
   
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  /* @media only screen and (min-width: 1200px) {
-    
-    .main {
-        width: 1200px;
-        height: 800px;
-        margin: 5em auto;
-        
-    }
+  .sticky .content {
+      padding-top: 60px;
   } */

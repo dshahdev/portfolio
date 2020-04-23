@@ -6,20 +6,32 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-  navbar;
+  mainNav;
+  sticky;
   constructor() { }
 
   ngOnInit(): void {
+    this.mainNav = document.getElementById("main-nav");
+    this.sticky = this.mainNav.offsetTop;
 
+    window.onscroll = () => {
+      this.stickyFunction();
+    }
     const menuIcon = document.querySelector('.hamburger-menu');
-    // console.log(" ham: " + menuIcon);
     const navbar1 = document.querySelector('.nav-bar-1');
-    // console.log(" nav: " + navbar1.textContent);
 
     menuIcon.addEventListener("click", () => {
-    //   console.log("it is clicked....");
       navbar1.classList.toggle('change');
-    })
+    });
+
+    
+  }
+  stickyFunction(){
+      if(window.pageXOffset >= this.sticky) {
+        this.mainNav.classList.add('sticky');
+      } else {
+        this.mainNav.classList.remove('sticky');
+      }
   }
 
 }
