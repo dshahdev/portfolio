@@ -1,0 +1,11 @@
+
+<div class="box">
+    <div class="child" *ngFor="let item of items">
+        <app-poc1-view 
+            [itemData]=item
+            [routerLink]="['/poc1', item.id]"
+            [state]="{Item: item}">
+
+        </app-poc1-view>
+    </div>
+</div>
