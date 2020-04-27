@@ -1,0 +1,64 @@
+.main-box {
+    display: flex;
+    flex-direction: column;
+    margin: 5em auto;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.inner-section {
+    max-width: 60%;
+    margin:2em auto;
+    margin-bottom: 2em;
+   
+}
+
+.inner-div {
+    display: flex;
+}
+.company-name {
+    flex-grow: 6;
+    
+}
+p {
+    
+    font-family: namun gothic,Arial,sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    margin-bottom: 1em;
+    /* font-weight: 500; */
+}
+h3 {
+    font-family: namun gothic,Arial,sans-serif;
+    font-weight: 400;
+    color: #c2910b;
+}
+
+h2, h4{
+    font-family: namun gothic,Arial,sans-serif;
+    font-weight: 400;
+    color: #2a042b; 
+    
+}
+
+
+h4 {
+    font-weight: 500;;
+    color: #c2910b;
+}
+/* .box {
+    display: flex;
+    flex-direction: column wrap;
+    width: 300px;
+    height: 100%;
+    background-color: yellow;
+    margin: 3em;
+} */
+
+.list {
+    font-family: namun gothic,Arial,sans-serif;
+    /* list-style-type: none; */
+    margin-left: 2em;
+    margin-top: .5em;
+    line-height: 1.5em;
+    color: #2a042b; 
+}

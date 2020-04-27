@@ -1,10 +1,43 @@
 .main-div {
     display: flex;
+    flex-direction: column;
     margin: 0 auto;
     padding: 0;
   
 }
 
-.para {
-    width: 300px;
+.view {
+    margin: 0 auto;
+   
 }
+.i-view {
+   /* width: 300px;
+   height: 300px */
+
+}
+.para {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+ @media only screen and (max-width: 500px) {
+   img {
+       width: 480px;  
+   }
+   .para {
+       width: 480px;
+   }
+   
+
+} 
+  @media only screen and (min-width: 600px) and (max-width: 900px){
+   
+    img {
+        width: 600px;  
+        
+    }
+    .para {
+        width: 600px;
+    }
+}   

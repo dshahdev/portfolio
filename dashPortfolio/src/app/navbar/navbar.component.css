@@ -1,8 +1,16 @@
+/* #main-nav {
+    position: fixed;
+} */
+
+
 .main {
     display: flex;
     flex-flow: row;
     background-color: #2a042b; 
     height: 10em;
+}
+.content {
+    padding: 16px;
 }
 .logo {
     flex-grow: 2;
@@ -23,6 +31,8 @@
 .navbar {
     flex-grow: 5;
 }
+
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -57,12 +67,17 @@
    
     
 }
+  .active {
+    background-color: gray;
+    
+}
 /* create hamburger div */
 
 .nav-bar-1{
     /* width: 300px; */
     width: 185px;
-    height: 23%;
+    /* height: 40%; */
+    height: 30%;
     background-color: #2a042b; 
     position: fixed;
     top: 1em;
@@ -131,7 +146,7 @@
     content: "";
     width: 100%;
     height: 2px;
-    background-color: chocolate;
+    background-color: rgb(255,204,255);;
     position: absolute;
     left: 0;
     transform: scaleX(0);
@@ -184,6 +199,6 @@
       width: 100%;
   }
   
-  .sticky .content {
-      padding-top: 60px;
+  .sticky  + .content {
+      padding-top: 1000px;
   } */

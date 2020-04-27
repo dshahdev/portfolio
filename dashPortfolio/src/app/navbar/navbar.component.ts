@@ -13,6 +13,8 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
     this.mainNav = document.getElementById("main-nav");
     this.sticky = this.mainNav.offsetTop;
+    
+    console.log("off-set: "+ this.sticky);
 
     window.onscroll = () => {
       this.stickyFunction();
@@ -27,6 +29,7 @@ export class NavbarComponent implements OnInit {
     
   }
   stickyFunction(){
+    console.log("window off set: "+ window.pageXOffset);
       if(window.pageXOffset >= this.sticky) {
         this.mainNav.classList.add('sticky');
       } else {
