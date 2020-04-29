@@ -1,6 +1,7 @@
 .main-div {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin: 0 auto;
     padding: 0;
   
@@ -9,11 +10,6 @@
 .view {
     margin: 0 auto;
    
-}
-.i-view {
-   /* width: 300px;
-   height: 300px */
-
 }
 .para {
     width: 500px;
@@ -30,14 +26,4 @@
    }
    
 
-} 
-  @media only screen and (min-width: 600px) and (max-width: 900px){
-   
-    img {
-        width: 600px;  
-        
-    }
-    .para {
-        width: 600px;
-    }
-}   
+}  

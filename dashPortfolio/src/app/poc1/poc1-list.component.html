@@ -1,11 +1,10 @@
+<div class="main">
+    <div class="heading">Responsive Page</div>
+    <div class="box">
+        <div class="child" *ngFor="let item of items">
+            <app-poc1-view [itemData]=item [routerLink]="['/poc1', item.id]" [state]="{Item: item}">
 
-<div class="box">
-    <div class="child" *ngFor="let item of items">
-        <app-poc1-view 
-            [itemData]=item
-            [routerLink]="['/poc1', item.id]"
-            [state]="{Item: item}">
-
-        </app-poc1-view>
+            </app-poc1-view>
+        </div>
     </div>
 </div>

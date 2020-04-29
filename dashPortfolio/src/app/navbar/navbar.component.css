@@ -80,7 +80,7 @@
     height: 30%;
     background-color: #2a042b; 
     position: fixed;
-    top: 1em;
+    top: 0;
     right: -300px;
     display: flex;
     justify-content: center;
@@ -192,13 +192,4 @@
         }
   } 
   
- /* sticky navigation */
-  /* .sticky {
-      position: fixed;
-      top: 0;
-      width: 100%;
-  }
-  
-  .sticky  + .content {
-      padding-top: 1000px;
-  } */
+ 

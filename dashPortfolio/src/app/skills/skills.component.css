@@ -8,8 +8,9 @@
     font-family: 'Roboto';
     font-size: 20px;
     color: #2a042b;
-    text-align: left;
-    margin-bottom: 1em;
+    text-align: center;
+    margin-bottom: 1em; 
+    margin-top: 3em;
     
 }
 
@@ -36,24 +37,25 @@ section .slide:hover {
     flex-grow: 4;
 }
 
-
 section .slide .content{
     
     position: absolute;
+    border-radius: 5px;;
     bottom: 100px;
     right: .5em;
     left: .5em;
     margin: 50px;
     padding: 15px;
     background: rgb(238, 226, 238);;
+    /* background: rgb(245, 242, 245);; */
     opacity: 0;
     color: #2a042b;
     visibility: hidden;
     opacity: 0;
     transition: 0;
-    /* transform: translateY(100px); */
     transform: translateY(350px);
 }
+
 
 section .slide .content li {
     list-style-type: none;

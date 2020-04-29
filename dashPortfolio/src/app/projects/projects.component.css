@@ -7,58 +7,75 @@
 }
 .inner-section {
     max-width: 60%;
-    margin:2em auto;
-    margin-bottom: 2em;
+    margin:3em auto;
+    
+    padding: .5em;
    
 }
 
 .inner-div {
     display: flex;
+    flex-direction: row;
 }
 .company-name {
     flex-grow: 6;
+    /* font-family: namun gothic,Arial,sans-serif;
+    font-weight: 400;
+    color: #2a042b;  */
     
 }
-p {
+h2, h3 {
+    font-family: namun gothic,Arial,sans-serif;
+    font-weight: 400;
+    color: #2a042b; 
+}
+
+.year {
+    flex-grow: 1;
+    font-family: namun gothic,Arial,sans-serif;
+    font-weight: 400;
+    color: #c2910b; 
+    /* color: #eed285;  */
+}
+.detail {
     
     font-family: namun gothic,Arial,sans-serif;
     font-size: 1em;
     line-height: 2em;
+    margin-top: 1em;
     margin-bottom: 1em;
-    /* font-weight: 500; */
-}
-h3 {
-    font-family: namun gothic,Arial,sans-serif;
-    font-weight: 400;
-    color: #c2910b;
-}
-
-h2, h4{
-    font-family: namun gothic,Arial,sans-serif;
-    font-weight: 400;
-    color: #2a042b; 
     
 }
 
-
-h4 {
-    font-weight: 500;;
-    color: #c2910b;
-}
-/* .box {
-    display: flex;
-    flex-direction: column wrap;
-    width: 300px;
-    height: 100%;
-    background-color: yellow;
-    margin: 3em;
-} */
-
 .list {
     font-family: namun gothic,Arial,sans-serif;
-    /* list-style-type: none; */
     margin-left: 2em;
     margin-top: .5em;
     line-height: 1.5em;
     color: #2a042b; 
 }
+.tech {
+    color: #c2910b; 
+}
+
+
+@media only screen and (max-width: 600px) {
+    .inner-section {
+        max-width: 80%;
+    }
+    h2 {
+        font-size: large; 
+    }
+    h3 {
+        font-size: medium;
+    }
+    .year {
+        font-size: small;
+    }
+    .detail {
+        font-size: .9em;
+    }
+    .list {
+        font-size: .9em;
+    }
+  }
