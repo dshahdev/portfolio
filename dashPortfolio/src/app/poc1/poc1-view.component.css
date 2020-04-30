@@ -17,6 +17,15 @@
     margin-bottom: 1.5em;
 }
 
+.detail {
+    font-family: namun gothic,Arial,sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+}
+
  @media only screen and (max-width: 500px) {
    img {
        width: 480px;  

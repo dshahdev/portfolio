@@ -42,14 +42,14 @@ img {
 .detail {
     font-family: namun gothic,Arial,sans-serif;
     font-size: 1.3em;
-    margin-left: 1em;
+    margin-left: .5em;
     line-height: 2em;
     color: #2a042b;
 }
 .detail-1 {
     font-family: namun gothic,Arial,sans-serif;
     font-size: 1em;
-    margin-left: 1em;
+    /* margin-left: 1em; */
     line-height: 2em;
     color: #2a042b;
 }
