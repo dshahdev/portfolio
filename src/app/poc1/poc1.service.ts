@@ -15,10 +15,10 @@ export class PocService {
     constructor(private http: HttpClient) {}
 
     getImageData(): Observable<any> {
-      return this.http.get('/assets/data/urls.json', httpOptions);
+      return this.http.get('assets/data/urls.json', httpOptions);
   }
    
     getData(): Observable<any> {
-      return this.http.get('/assets/data/myData.json', httpOptions);
+      return this.http.get('assets/data/myData.json', httpOptions);
   }
 }
