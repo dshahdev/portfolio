@@ -1,0 +1,23 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 12em auto;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    color: #2a042b; 
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+    .info {
+        font-size: small;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    
+    .info {
+        font-size: medium;
+    }
+  } 

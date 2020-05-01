@@ -1,0 +1,38 @@
+.main-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+  
+}
+
+.view {
+    margin: 0 auto;
+   
+}
+.para {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+.detail {
+    font-family: namun gothic,Arial,sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+}
+
+ @media only screen and (max-width: 500px) {
+   img {
+       width: 480px;  
+   }
+   .para {
+       width: 480px;
+   }
+   
+
+}  
