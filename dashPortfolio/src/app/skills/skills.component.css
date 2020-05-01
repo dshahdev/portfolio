@@ -13,7 +13,9 @@
     margin-top: 3em;
     
 }
-
+h3 {
+    color: #2a042b;
+}
 section {
     position: absolute;
     width: 100%;
