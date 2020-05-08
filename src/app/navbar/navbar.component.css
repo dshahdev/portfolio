@@ -168,7 +168,25 @@
  
 /* @media query Responsive */
 
-@media only screen and (max-width: 600px) {
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+   {
+     .main {
+         max-width: 100%;
+        
+     }
+     .my-name {
+        font-family: 'Roboto', sans-serif;
+        font-size: small;
+        
+    }
+    .navbar {
+        display: none;
+    }
+}
+
+/* @media only screen and (max-width: 600px) {
    
     .my-name {
         font-family: 'Roboto', sans-serif;
@@ -178,10 +196,10 @@
     .navbar {
         display: none;
     }
-  }
+  } */
   
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (max-width: 768px) {
+  /* @media only screen and (max-width: 768px) {
         .my-name {
             font-family: 'Roboto', sans-serif;
             font-size: small;
@@ -191,5 +209,5 @@
             display: none;
         }
   } 
-  
+   */
  
