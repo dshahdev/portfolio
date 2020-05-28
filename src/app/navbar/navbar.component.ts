@@ -22,10 +22,16 @@ export class NavbarComponent implements OnInit {
     const menuIcon = document.querySelector('.hamburger-menu');
     const navbar1 = document.querySelector('.nav-bar-1');
 
+    const navbarLink = document.querySelector('.nav-list-1');
+
+
     menuIcon.addEventListener("click", () => {
       navbar1.classList.toggle('change');
     });
 
+    navbarLink.addEventListener("click", () => {
+      navbar1.classList.toggle('change');
+    })
     
   }
   stickyFunction(){
@@ -35,6 +41,10 @@ export class NavbarComponent implements OnInit {
       } else {
         this.mainNav.classList.remove('sticky');
       }
+  }
+
+  testEvent() {
+    console.log("testing....");
   }
 
 }

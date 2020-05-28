@@ -13,6 +13,13 @@
     /* margin-top: 3em; */
     
 }
+.tooltip {
+    text-align: center;
+    font-weight: bold;
+    color: #2a042b;
+    visibility: hidden;
+}
+
 h3 {
     color: #2a042b;
 }
@@ -134,7 +141,9 @@ section .slide:nth-child(5) {
         transition-delay: 0.5s;
         transform: translateY(1);
     }
-     
+    .tooltip {
+        visibility: visible;
+    }
 }
 
 @media only screen and (max-width: 600px) {

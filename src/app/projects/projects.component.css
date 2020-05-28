@@ -3,7 +3,7 @@
     flex-direction: column;
     margin: 5em auto;
     height: 100%;
-    /* border: 1px solid red; */
+    
 }
 .inner-section {
     max-width: 60%;
@@ -19,9 +19,7 @@
 }
 .company-name {
     flex-grow: 6;
-    /* font-family: namun gothic,Arial,sans-serif;
-    font-weight: 400;
-    color: #2a042b;  */
+
     
 }
 h2, h3 {
