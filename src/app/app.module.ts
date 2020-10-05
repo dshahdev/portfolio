@@ -14,6 +14,7 @@ import { PocOneModule } from './poc1/poc1.module';
 import { ContactComponent } from './contact/contact.component';
 import { Poc1Component } from './poc1/poc1.component';
 import { PocService } from './poc1/poc1.service';
+import { Poc2Component } from './poc2/poc2.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PocService } from './poc1/poc1.service';
     ProjectsComponent,
     
     ContactComponent,
-    Poc1Component
+    Poc1Component,
+    Poc2Component
   ],
   imports: [
     BrowserModule,
