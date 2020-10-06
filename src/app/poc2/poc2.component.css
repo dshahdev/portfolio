@@ -1,0 +1,9 @@
+.main{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;  
+}
+
+.main2 {
+    flex-direction: column;
+}

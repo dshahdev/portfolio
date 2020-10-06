@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SharedService } from '../shared.service';
 
 @Component({
   selector: 'app-poc2',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Poc2Component implements OnInit {
 
-  constructor() { }
+  constructor(private sharedService: SharedService) { }
 
   ngOnInit(): void {
+    this.sharedService.getToDoList().subscribe((response) => {
+      console.log(JSON.stringify(response));
+    })
   }
 
 }
