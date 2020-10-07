@@ -1,7 +1,31 @@
-<h2 class="main"><u>State Manangement</u></h2>
+<h1 class="main"><u>State Manangement</u></h1>
+<h2 class="main"><u>My WishList</u></h2>
+
 <div class="main">
-    <div  >
-        <h2><i>My WishList</i></h2><span></span>
-        <div></div>
+    <!-- <h2><i>My WishList</i></h2> -->
+    <div class="main2" style="margin-top: 10px">
+        <ul class="nav-list" *ngFor="let todo of todoList">
+            <li>{{todo.Title}}</li>
+        </ul>
     </div>
+</div>
+
+<hr class="myhr"/>
+
+
+    <h2 class="myform">Create New WishList</h2>
+    <div class="myform">
+        <form (ngSubmit)="createToDos()" >
+            <div class="from-group ">
+                <input
+                [(ngModel)]="Title"
+                placeholder="Enter your wish"
+                class="form-control wishList"
+                name="Title"
+                style="width: 150px"/>
+            </div>
+            <div>
+                <button type="submit">Add</button>
+            </div>
+        </form>
 </div>

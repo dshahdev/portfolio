@@ -1,5 +1,5 @@
-{
-    "data" : [
+
+ [
     { "Title": "Barcelona", "IsCompleted": true },
     { "Title": "Bali", "IsCompleted": false },
     { "Title": "Paris", "IsCompleted": false },
@@ -10,4 +10,3 @@
     { "Title": "Kerala", "IsCompleted": false }
   ]
   
-}

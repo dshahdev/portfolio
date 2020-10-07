@@ -1,9 +1,42 @@
 .main{
     margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;  
+    /* flex-direction: column; */
 }
 
 .main2 {
     flex-direction: column;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.myhr {
+    height: .6em;
+    background: gray;
+}
+.myform {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+
+}
+.wishList {
+    height: 2em;
+    width: 10em;
+    border: 1.5px solid  #2a042b;
+    border-radius: .3em;
+}
+button {
+    width: 6em;
+    margin: 1em;
+    height: 2em;
+    background: #2a042b;
+    color:  rgb(255,204,255); 
 }
