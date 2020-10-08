@@ -1,31 +1,35 @@
+
 <h1 class="main"><u>State Manangement</u></h1>
-<h2 class="main"><u>My WishList</u></h2>
+<div class="notes">
+  <p><i>(Notes: Data is managed by redux/ngrx tech.)</i></p>
+</div>
+<div class="drop-down-main">
+  <div class="select-options">
+    <form #f="ngForm">
+      <select  class="select-button" (change)="changeEvent($event)" name="option">
+        <option [ngValue]="undefined" >Select any option </option>
+        <option *ngFor="let option of options" [value]="option"> {{option}} </option>
+      </select>
 
-<div class="main">
-    <!-- <h2><i>My WishList</i></h2> -->
-    <div class="main2" style="margin-top: 10px">
-        <ul class="nav-list" *ngFor="let todo of todoList">
-            <li>{{todo.Title}}</li>
-        </ul>
-    </div>
+    </form>
+  </div>
+  <div class="display">
+    <table >
+      <h3>My Favorites:</h3>
+      <tr *ngFor="let item of displayData">
+        <td class="item">{{item}}</td>
+      </tr>
+    </table>
+  </div>
 </div>
 
-<hr class="myhr"/>
+<!-- <form [formGroup]="form" (ngSubmit)="submit()">
+  <label for="orders">Order</label>
+  <select formControlName="orders" id="orders">
+    <option *ngFor="let order of orders; let i = index" [value]="orders[i].id">
+      {{orders[i].name}}
+    </option>
+  </select>
 
-
-    <h2 class="myform">Create New WishList</h2>
-    <div class="myform">
-        <form (ngSubmit)="createToDos()" >
-            <div class="from-group ">
-                <input
-                [(ngModel)]="Title"
-                placeholder="Enter your wish"
-                class="form-control wishList"
-                name="Title"
-                style="width: 150px"/>
-            </div>
-            <div>
-                <button type="submit">Add</button>
-            </div>
-        </form>
-</div>
+  <button>submit</button>
+</form> -->
