@@ -1,0 +1,81 @@
+.main{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;  
+    /* flex-direction: column; */
+}
+
+.main2 {
+    flex-direction: column;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.myhr {
+    height: .6em;
+    background: gray;
+}
+.myform {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+
+}
+.wishList {
+    height: 2em;
+    width: 10em;
+    border: 1.5px solid  #2a042b;
+    border-radius: .3em;
+}
+.select-button {
+    /* width: 10em; */
+    /* margin: 1em; */
+    height: 2em;
+    background: #2a042b;
+    color:  rgb(255,204,255); 
+    width: 300px;
+    margin-left: 10em;
+   
+}
+.notes {
+    display: flex;
+    justify-content: center;
+    color: rgb(167, 11, 11);
+}
+/* drop down */
+.drop-down-main {
+    display: flex;
+    /* justify-content: center; */
+}
+.select-options{
+    
+    /* border: 1px solid red; */
+    flex: 3;
+    text-align: end;
+}
+
+.display{
+    width: 300px;
+    margin-left: 2em;
+    flex: 2;
+    ;
+} 
+table {
+    width: 300px;
+    border: 2px solid #2a042b
+}
+.item {
+    font-weight: 600;
+    color:   #a74c10;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 3px 1px;
+    text-align: left;
+}

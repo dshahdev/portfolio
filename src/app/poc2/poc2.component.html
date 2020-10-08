@@ -1,0 +1,35 @@
+
+<h1 class="main"><u>State Manangement</u></h1>
+<div class="notes">
+  <p><i>(Notes: Data is managed by redux/ngrx tech.)</i></p>
+</div>
+<div class="drop-down-main">
+  <div class="select-options">
+    <form #f="ngForm">
+      <select  class="select-button" (change)="changeEvent($event)" name="option">
+        <option [ngValue]="undefined" >Select any option </option>
+        <option *ngFor="let option of options" [value]="option"> {{option}} </option>
+      </select>
+
+    </form>
+  </div>
+  <div class="display">
+    <table >
+      <h3>My Favorites:</h3>
+      <tr *ngFor="let item of displayData">
+        <td class="item">{{item}}</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- <form [formGroup]="form" (ngSubmit)="submit()">
+  <label for="orders">Order</label>
+  <select formControlName="orders" id="orders">
+    <option *ngFor="let order of orders; let i = index" [value]="orders[i].id">
+      {{orders[i].name}}
+    </option>
+  </select>
+
+  <button>submit</button>
+</form> -->

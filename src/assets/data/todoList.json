@@ -1,0 +1,12 @@
+
+ [
+    { "Title": "Barcelona", "IsCompleted": true },
+    { "Title": "Bali", "IsCompleted": false },
+    { "Title": "Paris", "IsCompleted": false },
+    { "Title": "Los Angeles", "IsCompleted": false },
+    { "Title": "Mumbai", "IsCompleted": false },
+    { "Title": "Africa", "IsCompleted": false },
+    { "Title": "Sydney", "IsCompleted": false },
+    { "Title": "Kerala", "IsCompleted": false }
+  ]
+  

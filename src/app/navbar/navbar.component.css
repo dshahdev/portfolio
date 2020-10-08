@@ -4,7 +4,7 @@
     display: flex;
     flex-flow: row;
     background-color: #2a042b; 
-    height: 10em;
+    /* height: 10em; */
 }
 .content {
     padding: 16px;
@@ -84,8 +84,8 @@
 
 .nav-bar-1{
     
-    width: 185px;
-    height: 30%;
+    width: 169px;
+    /* height: 30%; */
     background-color: #2a042b; 
     position: fixed;
     top: 50px;
